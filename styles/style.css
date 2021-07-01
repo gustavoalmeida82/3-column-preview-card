@@ -19,30 +19,36 @@
 
 body {
     background-color: var(--very-light-gray);
-    font-size: 15px;
-    height: 100vh;
-    padding: 6% 6% 0 6%;
+    font-size: 15px;    
+    padding: 24% 6% 24% 6%;
     display: flex;
     flex-direction: column;
 }
 
 img{
-    margin-top: 6%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 23%;
 }
 
 h1 {
     color: var(--very-light-gray);
     font-family: 'Big Shoulders Display', cursive;
-    font-size: 2.7em;
+    font-size: 2.8em;
     text-transform: uppercase;
-    margin-top: 4%;
+    margin-top: 13.5%;
 }
 
 p,
 .learnmore {
     color: var(--transparent-white);
     font-family: 'Lexend Deca', sans-serif;
-    margin-top: 4%;    
+    font-size: 1em;    
+    margin-top: 12%;
+}
+
+p {
+    line-height: 1.7;    
 }
 
 .card {
@@ -53,8 +59,8 @@ p,
 }
 
 .box {
-    padding-left: 9%;
-    padding-right: 9%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .sedans {
@@ -73,8 +79,8 @@ p,
     color: var(--very-light-gray);
     border: none;
     border-radius: 30px;
-    padding: 5% 10% 5% 10%;
-    margin-bottom: 6%;
+    padding: 7% 15% 7% 15%;    
+    margin-bottom: 22%;
 }
 
 .btnsedans{
