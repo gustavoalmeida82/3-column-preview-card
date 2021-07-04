@@ -103,3 +103,27 @@ p {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+@media (min-width: 900px){
+
+    body{
+        padding: 0;
+        display: flex;
+    }
+
+    .card{        
+        display: flex;
+        flex-direction: row;  
+        margin: auto;
+        max-width: 892.81px;
+    }
+
+    .box{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .learnmore{
+        margin-top: 35%;
+    }
+}
