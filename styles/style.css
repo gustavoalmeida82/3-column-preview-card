@@ -55,7 +55,7 @@ p {
     border-radius: 8px;
     overflow: hidden;
     max-width: 430px;
-    min-width: 315px;
+    min-width: 266.66px;
     margin: auto;
     display: flex;
     flex-direction: column;
